@@ -9,6 +9,7 @@ Inpiried by Schich et al. 2014 and Ahnert and Ahnert 2023, the project explores 
 
 Andrea Kocsis. 2026. keplerletters: Visualising the Kepler correspondence using Digital Humanities approaches in the history of astronomy. GitHub repository. https://github.com/aurigandrea/keplerletters
 
+```bibtex
 @misc{kocsis2026keplerletters,
   author       = {Kocsis, Andrea},
   title        = {keplerletters: Visualising the Kepler correspondence using Digital Humanities approaches in the history of astronomy},
@@ -17,6 +18,7 @@ Andrea Kocsis. 2026. keplerletters: Visualising the Kepler correspondence using 
   url          = {https://github.com/aurigandrea/keplerletters},
   note         = {Accessed: }
 }
+```
 
 # About the Repo
 
@@ -27,7 +29,7 @@ The repository contains two parts:
 
 ## Project Data
 
-This work is based on data from **EMLO (Early Modern Letters Online)**, Cultures of Knowledge, University of Oxford.
+This work is based on data from **EMLO (Early Modern Letters Online)**, Cultures of Knowledge, University of Oxford. https://emlo.bodleian.ox.ac.uk/
 
 ## Repository Structure
 
