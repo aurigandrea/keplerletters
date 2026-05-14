@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visualising the Kepler Correspondence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Kepler Letters home">
+        <img class="brand-logo" src="assets/css/Unterschrift_Kepler.svg.png" alt="Johannes Kepler signature logo">
+        <span class="brand-text">Kepler Letters</span>
+      </a>
+      <div class="nav-links">
+        <a href="#overview">About</a>
+        <a href="#understand">Understand</a>
+        <a href="#explore">Explore</a>
+        <a href="#references">References</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="overview">
+      <p class="eyebrow">Digital Humanities meets the History of Astronomy</p>
+      <h1>Visualising the Kepler Correspondence</h1>
+      <p class="lead">
+        Using Digital Humanities approaches in the history of astronomy, this project explores
+        explores both the social network and the geographical footprint of Johannes Kepler's correspondence.
+        The dataset is based on records from Early Modern Letters Online (EMLO).
+      </p>
+      <div class="pill-row">
+        <a class="pill" href="#explore">Start Exploring</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section explain" id="understand">
+      <div class="section-head">
+        <h2>Understanding the Visualisations</h2>
+      </div>
+      <div class="explain-grid">
+        <div class="explain-box">
+          <h3>What are these visualisations?</h3>
+          <p>
+            You can browse three views of Kepler's correspondence network
+            (1590–1631). Each visualisation reveals different aspects of his social 
+            connections: with whom he connected the most, where he received and sent 
+            letters his letters, and when  his correspondence was the most productive.
+          </p>
+        </div>
+        <div class="explain-box">
+          <h3>Rapid Dataset Overview</h3>
+          <ul class="dataset-stats">
+            <li><strong>1,154</strong> letters from EMLO</li>
+            <li><strong>242</strong> unique individuals</li>
+            <li><strong>330</strong> correspondence pairs</li>
+            <li><strong>137</strong> locations</li>
+            <li><strong>Time span:</strong> 1590–1631</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="explore">
+      <div class="section-head">
+        <h2>Explore the Visualisations</h2>
+        <p>Open each visualisation here or switch to full-screen for detailed exploration.</p>
+      </div>
+
+      <article class="viz-card">
+        <div class="viz-card-head">
+          <h3>People Network Graph</h3>
+          <a class="open-btn" href="visualizations/network_graph.html" target="_blank" rel="noopener noreferrer">Open Full View</a>
+        </div>
+        <p class="viz-desc">Start here to get a feel for Kepler's social world. Drag the graph around (funfact: it wiggles) and follow the letters. Who are the strongest links? Who is more central or more peripheral? And why did he send only one letter to his wife, Barbara, while 21 to Galileo Galilei?</p>
+        <div class="legend">
+          <h4>Legend</h4>
+          <div class="legend-grid">
+            <div class="legend-item">
+              <span class="legend-dot" style="background-color: #dc2626;"></span>
+              <span>Johannes Kepler</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background-color: #3b82f6;"></span>
+              <span>Correspondents</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-line" style="border-top: 2px solid #d1d5db;"></span>
+              <span>Correspondence (weight = letter count)</span>
+            </div>
+          </div>
+        </div>
+        <iframe class="viz-frame" src="visualizations/network_graph.html" title="People network graph"></iframe>
+      </article>
+
+      <article class="viz-card">
+        <div class="viz-card-head">
+          <h3>Letters in Europe</h3>
+          <a class="open-btn" href="visualizations/multiview_map.html" target="_blank" rel="noopener noreferrer">Open Full View</a>
+        </div>
+        <p class="viz-desc">Here you can explore where these letters were received and sent. Turn layers on and off to compare people and locations. 
+            If you follow a city edge, you'll know more about the routes, if you follow people pathways, 
+            you'll focus on the social links. Kepler was not interested in messaging with the Vatican, had an elaborate network in Baden-Württemberg, and clearly preferred Oxford to Cambridge. </p>
+        <div class="legend">
+          <h4>Legend</h4>
+          <div class="legend-grid">
+            <div class="legend-item">
+              <span class="legend-dot" style="background-color: #3388ff;"></span>
+              <span>City Nodes</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-line" style="border-top: 2px solid #dc2626;"></span>
+              <span>City Routes</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background-color: #fbbf24;"></span>
+              <span>Person Nodes</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-line" style="border-top: 2px solid #9333ea;"></span>
+              <span>Person Edges</span>
+            </div>
+          </div>
+        </div>
+        <iframe class="viz-frame" src="visualizations/multiview_map.html" title="Combined map"></iframe>
+      </article>
+
+      <article class="viz-card">
+        <div class="viz-card-head">
+          <h3>In time and space</h3>
+          <a class="open-btn" href="visualizations/timeline_map.html" target="_blank" rel="noopener noreferrer">Open Full View</a>
+        </div>
+        <p class="viz-desc">Hit play to watch the network unfold year by year to explore how Kepler's communication patterns shift across different stages of his life.</p>
+        <div class="legend">
+          <h4>Legend</h4>
+          <div class="legend-grid">
+            <div class="legend-item">
+              <span class="legend-line" style="border-top: 2px solid #ef4444;"></span>
+              <span>Sent by Kepler</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-line" style="border-top: 2px solid #3b82f6;"></span>
+              <span>Received by Kepler</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-line" style="border-top: 2px solid #8b5cf6;"></span>
+              <span>Between others</span>
+            </div>
+          </div>
+        </div>
+        <iframe class="viz-frame" src="visualizations/timeline_map.html" title="Timeline map"></iframe>
+      </article>
+    </section>
+
+    <section class="section section-narrow" id="references">
+      <div class="section-head">
+        <h2>Data and References</h2>
+      </div>
+      <p>
+        This project is based on metadata from the EMLO project: <em>Early Modern Letters Online</em>,
+        Cultures of Knowledge, University of Oxford.
+      </p>
+      <ul class="refs">
+        <li>
+          Cultures of Knowledge Project. <em>Early Modern Letters Online (EMLO)</em>.
+          <a href="https://emlo.bodleian.ox.ac.uk/" target="_blank" rel="noopener noreferrer">https://emlo.bodleian.ox.ac.uk/</a>
+        </li>
+        <li>
+          Kepler catalogue entry used for extraction:
+          <a href="https://emlo.bodleian.ox.ac.uk/forms/advanced?col_cat=Kepler%2C+Johannes&start=0" target="_blank" rel="noopener noreferrer">EMLO advanced search for Kepler correspondence</a>
+        </li>
+        <p>Inspired by</p>
+        <li> Maximilian Schich et al. ,A network framework of cultural history.Science345,558-562(2014).DOI:10.1126/science.1240064</li>
+        <li>Ahnert, Ruth, and Sebastian E. Ahnert, Tudor Networks of Power (Oxford, 2023; online edn, Oxford Academic, 19 Oct. 2023), https://doi.org/10.1093/oso/9780198858973.001.0001, accessed 12 May 2026.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Dr Andrea Kocsis, 2026.</p>
+  </footer>
+</body>
+</html>
