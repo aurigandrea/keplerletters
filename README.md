@@ -1,9 +1,9 @@
 # keplerletters
 
-Visualising the Kepler correspondance --
+Visualising the Kepler correspondence --
 Using Digital Humanities approaches in the History of Astronomy
 
-Inpiried by Schich et al. 2014 and Ahnert and Ahnert 2023, the project explores both the network and the geographical footprint of Kepler's correspondance. Designed as teaching material, turned into research.
+Inspired by Schich et al. 2014 and Ahnert and Ahnert 2023, the project explores both the network and the geographical footprint of Kepler's correspondence. Designed as teaching material, turned into research.
 
 # How ro cite
 
