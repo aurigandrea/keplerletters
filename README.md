@@ -5,7 +5,7 @@ Using Digital Humanities approaches in the History of Astronomy
 
 Inspired by Schich et al. 2014 and Ahnert and Ahnert 2023, the project explores both the network and the geographical footprint of Kepler's correspondence. Designed as teaching material, turned into research.
 
-# How ro cite
+# How to cite
 
 Andrea Kocsis. 2026. keplerletters: Visualising the Kepler correspondence using Digital Humanities approaches in the history of astronomy. GitHub repository. https://github.com/aurigandrea/keplerletters
 
