@@ -284,6 +284,10 @@ body {
   background: #f6f6f6;
 }
 
+.viz-card:first-of-type .viz-frame {
+  zoom: 1.25;
+}
+
 .section-narrow {
   max-width: 900px;
 }
