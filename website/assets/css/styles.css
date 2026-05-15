@@ -285,7 +285,7 @@ body {
 }
 
 .viz-card:first-of-type .viz-frame {
-  zoom: 1.25;
+  zoom: 3;
 }
 
 .section-narrow {
