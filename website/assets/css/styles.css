@@ -26,11 +26,6 @@ body {
 
 .site-header {
   padding: 1rem 1.25rem 3rem;
-  position: sticky;
-  top: 0;
-  background: linear-gradient(180deg, var(--bg-deep), rgba(13, 19, 38, 0.95));
-  backdrop-filter: blur(8px);
-  z-index: 100;
 }
 
 .nav-wrap {
@@ -208,6 +203,9 @@ body {
   padding: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
+
+.viz-card-head {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.8rem;
@@ -284,10 +282,6 @@ body {
   border: 1px solid #3a466f;
   border-radius: 10px;
   background: #f6f6f6;
-}
-
-.viz-card:first-of-type .viz-frame {
-  zoom: 3;
 }
 
 .section-narrow {
