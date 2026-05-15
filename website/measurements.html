@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Network Measurements – Kepler Letters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/measurements.css">
+  <script src="https://cdn.plot.ly/plotly-2.34.0.min.js"></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Kepler Letters home">
+        <img class="brand-logo" src="assets/css/Unterschrift_Kepler.svg.png" alt="Johannes Kepler signature logo">
+        <span class="brand-text">Kepler Letters</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Visualisations</a>
+        <a href="#centrality">Centrality</a>
+        <a href="#network-diff">Robustness</a>
+        <a href="#place-outliers">Outliers</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="overview">
+      <p class="eyebrow">Network Analysis</p>
+      <h1>What can we learn from measuring the Kepler letters?</h1>
+      <p class="lead">
+        Using graph-theoretic measures on the directed weighted network of Kepler's correspondence,
+        we can quantify influence, brokerage, and structural importance. These charts explore who held
+        power in the network, what changed when Kepler is removed, and which place-year combinations
+        stand out as unexpected hubs of activity. However, this reveals as much about the archival collection itself
+        as about the Kepler's social world. Use them as indicators leading to potential stories hidden 
+        in the content of the letters.
+      </p>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="centrality">
+      <div class="section-head">
+        <h2>The popularity contest</h2>
+        <p>Who were the most influential, most active, and most connected people in Kepler's correspondence?</p>
+      </div>
+
+      <div class="chart-card">
+        <h3>Top 25 Correspondents by Centrality Measure</h3>
+        <p class="chart-desc">
+          Switch between metrics to compare how rankings shift depending on what kind of influence you measure.
+           A quick catch-up on terminology: 
+          <strong>PageRank</strong> weights incoming letters by the sender's own importance — a letter from
+          Galileo counts more than a letter from an unknown clerk. <strong>Betweenness</strong> captures who
+          sits on the most shortest paths between others, they are the network brokers. <strong>Degree</strong> 
+          in this case simply
+          counts total letter volume. Toggle <strong>Kepler removed</strong> to see the underlying network
+          without him dominating every metric.
+        </p>
+        <div class="metric-tabs metric-tabs-row">
+          <div class="metric-tab-group" id="metric-tab-group">
+            <button class="tab-btn active" onclick="showMetric('pagerank')">PageRank</button>
+            <button class="tab-btn" onclick="showMetric('betweenness')">Betweenness</button>
+            <button class="tab-btn" onclick="showMetric('in_degree')">Letters Received</button>
+            <button class="tab-btn" onclick="showMetric('out_degree')">Letters Sent</button>
+          </div>
+          <button class="tab-btn kepler-toggle" id="kepler-toggle" onclick="toggleKepler()">
+            ⊘ Remove Kepler
+          </button>
+        </div>
+        <div id="chart-centrality" class="chart-wrap"></div>
+        <div class="insight-box">
+          <p> Degree, how many letters were exchanged, is a meaningful indicator of someone's importance in Kepler's connections. 
+            As this is an ego-centric network, of course, it's concentrated around Kepler. If we remove him, 
+            we naturally loose him as a broker, but also we can explore how influence is redistributed across 
+            institutional and scholarly actors (for example Tübingen University,
+          Mästlin, Brahe, and Galileo), indicating that many secondary ties were previously masked by Kepler's
+          hub effect. Read this chart together with betweenness: actors with moderate PageRank but non-zero
+          betweenness are often the most meaningful brokers in the residual network.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="network-diff">
+      <div class="section-head">
+        <h2>What changes without Kepler?</h2>
+        <p>Removing Kepler from the graph reveals the underlying structure of his correspondents' own connections.</p>
+      </div>
+
+      <div class="chart-card">
+        <h3>Betweenness Centrality: Full Network vs. Kepler Removed</h3>
+        <p class="chart-desc">
+          As above, when Kepler is removed, it's expected that his correspondents lose nearly all betweenness — their brokerage
+          role was entirely mediated through him. A few figures, however, maintain independent structural
+          positions in the residual network. <strong>PageRank gains</strong> (shown as the teal bars) reveal
+          who becomes more prominent in Kepler's absence. It's the historian's task to explore if it's a collection 
+          error or there is a meaningul reason to include those letters in the Kepler archive.
+        </p>
+        <div id="chart-diff" class="chart-wrap-tall"></div>
+        <div class="insight-box">
+          <strong>Brahe and Galileo</strong> lose the most betweenness when Kepler is removed — they were
+          connected to the wider network almost exclusively through him. It doesn't tell much about their overall influence, 
+          but highlights Kepler's connection to them.  In contrast,
+          <strong>Tübingen University</strong> and <strong>Cysat</strong> show PageRank <em>gains</em>,
+          suggesting they hold independent connections not reliant on Kepler as a hub. When you find someoone who unexpectedly
+           holds a bridge in the residual network, it's a strong signal to go back to the archives.
+      </div>
+    </section>
+
+    <section class="section" id="place-outliers">
+      <div class="section-head">
+        <h2>The promising outliers</h2>
+        <p>Where and when were highly-connected people present in otherwise peripheral locations?</p>
+      </div>
+
+      <div class="chart-card">
+        <h3>Top 30 Unexpected Places of Activity</h3>
+        <p class="chart-desc">
+          Each bubble represents a place in a given year. The <strong>vertical position</strong> shows the
+          brokerage intensity score (high-centrality people in low-activity places),
+          <strong>bubble size</strong> encodes the number of letter mentions, and
+          <strong>colour</strong> encodes the number of distinct people present. Hover for full details.
+          Toggle <strong>Kepler removed</strong> to see what remains in the secondary network.
+        </p>
+        <div class="metric-tabs">
+          <button class="tab-btn outliers-toggle" id="outliers-toggle" onclick="toggleOutliersKepler()">
+            ⊘ Remove Kepler
+          </button>
+        </div>
+        <div id="chart-outliers" class="chart-wrap-tall"></div>
+        <div class="insight-box">
+          <p>When Kepler is in the network, Prague (1601–1606) and Graz (1594–1597) dominate as high-intensity hubs. It's not a surprise as Kepler was resident in these cities and drew significant correspondence. One-off locations like Baierdorf and Steyregg score exceptionally 
+            high because they hosted single letters from/to Kepler despite minimal background activity. <strong>Without Kepler:</strong> Cities like Tübingen, Strasbourg, and Munich emerge as more persistent secondary hubs for correspondence, revealing the role of institutional networks in Kepler's circles. What's worth exploring
+            is the small places with high brokerage scores — they may indicate unexpected encounters or secret journeys. That's where network science ends, and microhistory begins.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Dr Andrea Kocsis, 2026. Measurements computed with NetworkX from EMLO data.</p>
+  </footer>
+
+  <script src="assets/js/measurements.js"></script>
+</body>
+</html>

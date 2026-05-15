@@ -1,0 +1,137 @@
+place,weighted_in_degree,weighted_out_degree,weighted_total_degree,in_degree,out_degree,betweenness,pagerank
+"Prague, Czech Republic",323,153,476,65,38,0.31299060254284133,0.21529693553820972
+"Linz, Upper Austria, Austria",224,95,319,52,24,0.23604201216141515,0.1523273162717273
+"Tübingen, Baden-Württemberg, Germany",81,100,181,17,11,0.10558319513543395,0.07003639052519119
+"Graz, Styria, Austria",90,60,150,21,12,0.05914870093974572,0.05803624255986068
+"Munich, Bavaria, Germany",36,72,108,5,3,0.02017689331122167,0.034847291650095764
+"Strasbourg, Grand Est, France",49,35,84,12,9,0.052957435046987286,0.04844347718956489
+"Ulm, Baden-Württemberg, Germany",15,46,61,7,9,0.017634051962410174,0.011251707149051004
+"Vienna, Wien, Austria",23,36,59,4,4,0.001271420674405749,0.029297200916591385
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)",21,35,56,5,7,0.010447761194029851,0.01541010230559207
+"Leipzig, Saxony, Germany",27,19,46,5,3,0.017965726920950803,0.02681384821419538
+"Zagań, Lubusz, Poland",15,18,33,8,6,0.031011608623548924,0.017299603776555983
+"Osteel, Lower Saxony, Germany",5,19,24,2,1,0.0,0.007428581379736791
+"Wittenberg, Saxony-Anhalt, Germany",2,21,23,2,2,0.0,0.0032987351199743253
+"Bologna, Emilia-Romagna, Italy",8,14,22,3,2,0.003648424543946932,0.010368585852612711
+"Gdańsk, Pomeranian Voivodeship, Poland",8,13,21,1,3,0.0,0.012184703872393425
+"Regensburg, Bavaria, Germany",10,9,19,7,4,0.010392482034273079,0.008977110641945618
+"Esens, Lower Saxony, Germany",3,14,17,1,1,0.0,0.004869186041896645
+"Hrastnik, Hrastnik, Slovenia",0,15,15,0,1,0.0,0.0012801919858354527
+"Venice, Veneto, Italy",5,10,15,1,2,0.0,0.008095511914934185
+"Padua, Veneto, Italy",9,5,14,2,4,0.006799336650082919,0.011298935014215188
+"Mainz, Rhineland-Palatinate, Germany",3,11,14,1,1,0.0,0.004869186041896645
+"Kaliningrad [Königsberg], Kaliningrad Oblast, Russia [Prussia]",0,11,11,0,2,0.0,0.0012801919858354527
+"Florence, Tuscany, Italy",9,2,11,3,1,0.0,0.012266425428433222
+"Görlitz, Saxony, Germany",2,9,11,1,4,0.0,0.003672854689876248
+"Benátky nad Jizerou, Central Bohemia, Czech Republic",4,6,10,2,2,0.003648424543946932,0.005957380014433045
+"Dresden, Saxony, Germany",3,7,10,2,2,0.0,0.005035918675695995
+"Antwerp, Flanders, Belgium",3,7,10,2,3,0.0,0.005202651309495344
+"Wolfenbüttel, Lower Saxony, Germany",2,8,10,1,1,0.0,0.003672854689876248
+"Jičín, Královéhradecký kraj, Czech Republic",5,4,9,4,3,0.0,0.005871736138908402
+"Kaufbeuren, Bavaria, Germany",4,5,9,1,1,0.0,0.006065517393917043
+"London, England, United Kingdom",5,3,8,2,1,0.0,0.007428581379736791
+"Ansbach, Bavaria, Germany",1,7,8,1,3,0.0,0.0024765233378558505
+"Frankfurt am Main, Hesse, Germany",1,7,8,1,3,0.0,0.0024565629606980227
+"Altdorf, Bavaria, Germany",2,6,8,2,3,0.0,0.0030717472851110933
+"Olomouc, Moravia, Czech Republic",3,4,7,1,1,0.0,0.004869186041896645
+"Halberstadt, Saxony-Anhalt, Germany",3,4,7,2,2,0.0,0.004920557158222761
+"Castle Leombach, Leombach, Upper Austria, Austria",1,5,6,1,1,0.0,0.0015522404789695525
+"Resterhafe, Lower Saxony, Germany",1,5,6,1,1,0.0,0.0024765233378558505
+"Nürtingen, Baden-Württemberg, Germany",2,4,6,1,1,0.0,0.004006319957474946
+"Butzbach, Hesse, Germany, (Holy Roman Empire)",0,6,6,0,4,0.0,0.0012801919858354527
+"Augsburg, Bavaria, Germany",1,4,5,1,2,0.0,0.0026432559716551996
+"Ingolstadt, Bavaria, Germany, (Holy Roman Empire)",3,2,5,2,2,0.0,0.002664428242973177
+"Rome, Latium, Italy",2,3,5,1,2,0.0,0.003672854689876248
+"Lubań, Lower Silesia, Poland",1,3,4,1,1,0.0,0.0024565629606980227
+"Nuremberg, Bavaria, Germany",1,3,4,1,1,0.0,0.0026432559716551996
+"Weil der Stadt, Baden-Württemberg, Germany",2,2,4,2,1,0.0035931453841901604,0.004122007330244787
+"Innsbruck, Tyrol, Austria, (Holy Roman Empire)",1,3,4,1,1,0.0,0.0024765233378558505
+"Bremen, Bremen, Germany",0,4,4,0,1,0.0,0.0012801919858354527
+"Calw, Baden-Württemberg, Germany",1,3,4,1,1,0.0,0.002102403767953928
+"Dillingen an der Donau, Bavaria, Germany",0,4,4,0,1,0.0,0.0012801919858354527
+"Soběslav, Jihočeský, Czech Republic",0,4,4,0,1,0.0,0.0012801919858354527
+"Frankfurt (Oder), Brandenburg, Germany",1,3,4,1,1,0.0,0.0021279701907754665
+"Wels, Upper Austria, Austria",0,4,4,0,3,0.0,0.0012801919858354527
+"Eferding, Upper Austria, Austria",0,4,4,0,2,0.0,0.0012801919858354527
+"Neuburg an der Donau, Bavaria, Germany",1,2,3,1,1,0.0,0.0024765233378558505
+"Paris, Île-de-France, France",1,2,3,1,2,0.0,0.0032004745925202404
+"Schloss Rabenstein, Styria, Austria",0,3,3,0,1,0.0,0.0012801919858354527
+"Freiburg, Baden-Württemberg, Germany",1,2,3,1,1,0.0,0.0024765233378558505
+"Güglingen, Baden-Württemberg, Germany",3,0,3,3,0,0.0,0.0033482490508547503
+"Geneva, Geneva, Switzerland",1,2,3,1,2,0.0,0.001875415933090696
+"Haguenau, Grand Est, France",0,3,3,0,1,0.0,0.0012801919858354527
+"Güstrow, Mecklenburg-Vorpommern, Germany",1,2,3,1,1,0.0,0.0020971801373186796
+"Crossen an der Elster, Thuringia, Germany",1,2,3,1,1,0.0,0.0024765233378558505
+"Leiden, South Holland, Netherlands",3,0,3,1,0,0.0,0.004869186041896645
+"Wandsbek, Hamburg, Germany",1,2,3,1,2,0.0,0.002102403767953928
+"Donauwörth, Bavaria, Germany",0,2,2,0,1,0.0,0.0012801919858354527
+"Mähringen, Baden-Württemberg, Germany",0,2,2,0,2,0.0,0.0012801919858354527
+"Esslingen, Baden-Württemberg, Germany",1,1,2,1,1,0.0,0.0014881094298508793
+"Schloss Weidenholz, Weidenholz, Upper Austria, Austria",1,1,2,1,1,0.0,0.0026432559716551996
+"Deventer, Overijssel, Netherlands",0,2,2,0,1,0.0,0.0012801919858354527
+"Leonberg, Baden-Württemberg, Germany",1,1,2,1,1,0.0,0.0026432559716551996
+"Marburg, Hesse, Germany",0,2,2,0,1,0.0,0.0012801919858354527
+"Milan, Lombardy, Italy",0,2,2,0,1,0.0,0.0012801919858354527
+"Rouffach, Grand Est, France",1,1,2,1,1,0.0,0.0020971801373186796
+"Berlin, Berlin, Germany",0,2,2,0,2,0.0,0.0012801919858354527
+Girsitz,0,2,2,0,2,0.0,0.0012801919858354527
+"Brno, South Moravia, Czech Republic",0,2,2,0,1,0.0,0.0012801919858354527
+"Castle Rastenberg, Rastenfeld, Lower Austria, Austria",0,2,2,0,1,0.0,0.0012801919858354527
+"Brussels, Brussels Capital Region, Belgium",1,1,2,1,1,0.0,0.0026432559716551996
+"Rosswälden, Baden-Württemberg, Germany",2,0,2,1,0,0.0,0.002028692380659412
+"Styria, Austria",2,0,2,2,0,0.0,0.0032987351199743253
+"Horn, (West Frisia) Limburg, Netherlands",0,2,2,0,2,0.0,0.0012801919858354527
+"Saverne, Grand Est, France",0,1,1,0,1,0.0,0.0012801919858354527
+"Widdern, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Vicenza, Veneto, Italy",0,1,1,0,1,0.0,0.0012801919858354527
+"Panenské Břežany, Central Bohemia",0,1,1,0,1,0.0,0.0012801919858354527
+"Pfaffenhofen an der Ilm, Bavaria, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Uherské Hradiště, Zlín, Czech Republic",0,1,1,0,1,0.0,0.0012801919858354527
+"Plzeň, Plzeňský, Czech Republic",0,1,1,0,1,0.0,0.0012801919858354527
+"Třeboň, Jihočeský, Czech Republic",0,1,1,0,1,0.0,0.0012801919858354527
+"Amsterdam, North Holland, (United Provinces) Netherlands",1,0,1,1,0,0.0,0.0024765233378558505
+"Přelouč, Pardubický, Czech Republic",1,0,1,1,0,0.0,0.0024765233378558505
+France,1,0,1,1,0,0.0,0.0024765233378558505
+"Turin, Piedmont, Italy",0,1,1,0,1,0.0,0.0012801919858354527
+"Szprotawa, Lubusz Voivodeship, (Silesia) Poland",0,1,1,0,1,0.0,0.0012801919858354527
+"Strechau, Styria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Steyr, Upper Austria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Altdöbern, Brandenburg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Rostock, Mecklenburg-Vorpommern, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Wesenufer, Upper Austria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Oxford, Oxfordshire, England",0,1,1,0,1,0.0,0.0012801919858354527
+"Rottenmann, Styria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Schwertberg, Upper Austria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Wamberg, Bavaria, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Bad Teinach-Zavelstein, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Nový Jáchymov, Central Bohemia, Czech Republic",0,1,1,0,1,0.0,0.0012801919858354527
+"Hirsau, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Dębno, West Pomerania, Poland",0,1,1,0,1,0.0,0.0012801919858354527
+"Copenhagen, Capital Region, Denmark",0,1,1,0,1,0.0,0.0012801919858354527
+"Cologne, North Rhine-Westphalia, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Friedland, Lower Saxony, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Giessen, Hesse, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Bytom, Silesian Voivodeship, Poland",0,1,1,0,1,0.0,0.0012801919858354527
+"Bruck an der Mur, Styria, Austria",1,0,1,1,0,0.0,0.002102403767953928
+"Burgstein, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Grodków, Opole Voivodeship, Poland",0,1,1,0,1,0.0,0.0012801919858354527
+"Göppingen, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Brtnice, Vysočina, Czech Republic",0,1,1,0,1,0.0,0.0012801919858354527
+"Heidelberg, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Helmstedt, Lower Saxony, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Hirschbach, Lower Austria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Neumünster, Schleswig-Holstein, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Blaubeuren Abbey, Blaubeuren, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Jena, Thuringia, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Bellosguardo , Florence, Tuscany, Italy",0,1,1,0,1,0.0,0.0012801919858354527
+"Leuven, Flemish Brabant, Belgium",0,1,1,0,1,0.0,0.0012801919858354527
+"Bad Cannstatt, Baden-Württemberg, Germany",1,0,1,1,0,0.0,0.0026432559716551996
+"Baierdorf bei Anger, Styria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Passau, Lower Bavaria, Germany",1,0,1,1,0,0.0,0.0026432559716551996
+"Aurich, Lower Saxony, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Lochovice, Central Bohemia , Czech Republic",0,1,1,0,1,0.0,0.0012801919858354527
+"Loschberg, Waldhausen, Lower Austria, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Magdeburg, Saxony-Anhalt, Germany",0,1,1,0,1,0.0,0.0012801919858354527
+"Mnichovo Hradiště, Central Bohemia, Czech Republic",0,1,1,0,1,0.0,0.0012801919858354527
+"Möllbrücke, Carinthia, Austria",0,1,1,0,1,0.0,0.0012801919858354527
+"Wiesensteig, Baden-Württemberg, Germany",0,1,1,0,1,0.0,0.0012801919858354527

@@ -34,7 +34,9 @@ This work is based on data from **EMLO (Early Modern Letters Online)**, Cultures
 ## Repository Structure
 
 - `scripts/`
-  - Research/build scripts (scraping, geocoding, network files, map outputs)
+  - Research/build scripts (scraping, geocoding, network files, measurements, map outputs)
+  - `measurements.py` builds the network centrality and outlier tables used by the Measurements page
+  - `validate_measurements.py` checks the generated measurement outputs for consistency
 - `data/`
   - All research data outputs (CSV files)
 - `website/`
@@ -59,6 +61,12 @@ Website visual outputs in `website/visualizations/`:
 - `multiview_map.html`
 - `timeline_map.html`
 - `network_graph.html`
+
+Measurement outputs in `data/measurements/`:
+
+- Centrality tables for people networks
+- Place-year outlier tables
+- Validation-ready measurement exports
 
 ## Typical Workflow
 
@@ -90,7 +98,14 @@ python scripts/build_timeline_map.py
 python scripts/build_network_graph.py
 ```
 
-5. Open the landing page
+5. Build and validate the measurement outputs
+
+```bash
+python scripts/measurements.py
+python scripts/validate_measurements.py
+```
+
+6. Open the landing page
 
 ```bash
 open website/index.html

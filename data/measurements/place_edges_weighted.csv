@@ -1,0 +1,286 @@
+Origin,Destination,weight
+"Altdorf, Bavaria, Germany","Linz, Upper Austria, Austria",1
+"Altdorf, Bavaria, Germany","Munich, Bavaria, Germany",3
+"Altdorf, Bavaria, Germany","Prague, Czech Republic",2
+"Altdöbern, Brandenburg, Germany","Prague, Czech Republic",1
+"Ansbach, Bavaria, Germany","Graz, Styria, Austria",3
+"Ansbach, Bavaria, Germany","Prague, Czech Republic",3
+"Ansbach, Bavaria, Germany","Regensburg, Bavaria, Germany",1
+"Antwerp, Flanders, Belgium","Linz, Upper Austria, Austria",4
+"Antwerp, Flanders, Belgium","Prague, Czech Republic",2
+"Antwerp, Flanders, Belgium","Regensburg, Bavaria, Germany",1
+"Augsburg, Bavaria, Germany","Ingolstadt, Bavaria, Germany, (Holy Roman Empire)",1
+"Augsburg, Bavaria, Germany","Linz, Upper Austria, Austria",3
+"Aurich, Lower Saxony, Germany","Prague, Czech Republic",1
+"Bad Teinach-Zavelstein, Baden-Württemberg, Germany","Linz, Upper Austria, Austria",1
+"Baierdorf bei Anger, Styria, Austria","Tübingen, Baden-Württemberg, Germany",1
+"Bellosguardo , Florence, Tuscany, Italy","Ulm, Baden-Württemberg, Germany",1
+"Benátky nad Jizerou, Central Bohemia, Czech Republic","Graz, Styria, Austria",2
+"Benátky nad Jizerou, Central Bohemia, Czech Republic","Prague, Czech Republic",4
+"Berlin, Berlin, Germany","Linz, Upper Austria, Austria",1
+"Berlin, Berlin, Germany","Prague, Czech Republic",1
+"Blaubeuren Abbey, Blaubeuren, Baden-Württemberg, Germany","Tübingen, Baden-Württemberg, Germany",1
+"Bologna, Emilia-Romagna, Italy","Linz, Upper Austria, Austria",1
+"Bologna, Emilia-Romagna, Italy","Prague, Czech Republic",13
+"Bremen, Bremen, Germany","Prague, Czech Republic",4
+"Brno, South Moravia, Czech Republic","Linz, Upper Austria, Austria",2
+"Brtnice, Vysočina, Czech Republic","Prague, Czech Republic",1
+"Brussels, Brussels Capital Region, Belgium","Linz, Upper Austria, Austria",1
+"Burgstein, Baden-Württemberg, Germany","Graz, Styria, Austria",1
+"Butzbach, Hesse, Germany, (Holy Roman Empire)","Linz, Upper Austria, Austria",3
+"Butzbach, Hesse, Germany, (Holy Roman Empire)","Tübingen, Baden-Württemberg, Germany",1
+"Butzbach, Hesse, Germany, (Holy Roman Empire)","Ulm, Baden-Württemberg, Germany",1
+"Butzbach, Hesse, Germany, (Holy Roman Empire)","Zagań, Lubusz, Poland",1
+"Bytom, Silesian Voivodeship, Poland","Linz, Upper Austria, Austria",1
+"Calw, Baden-Württemberg, Germany","Graz, Styria, Austria",3
+"Castle Leombach, Leombach, Upper Austria, Austria","Linz, Upper Austria, Austria",5
+"Castle Rastenberg, Rastenfeld, Lower Austria, Austria","Linz, Upper Austria, Austria",2
+"Cologne, North Rhine-Westphalia, Germany","Linz, Upper Austria, Austria",1
+"Copenhagen, Capital Region, Denmark","Prague, Czech Republic",1
+"Crossen an der Elster, Thuringia, Germany","Prague, Czech Republic",2
+"Deventer, Overijssel, Netherlands","Prague, Czech Republic",2
+"Dillingen an der Donau, Bavaria, Germany","Ulm, Baden-Württemberg, Germany",4
+"Donauwörth, Bavaria, Germany","Prague, Czech Republic",2
+"Dresden, Saxony, Germany","Linz, Upper Austria, Austria",1
+"Dresden, Saxony, Germany","Prague, Czech Republic",6
+"Dębno, West Pomerania, Poland","Linz, Upper Austria, Austria",1
+"Eferding, Upper Austria, Austria","Linz, Upper Austria, Austria",3
+"Eferding, Upper Austria, Austria","Prague, Czech Republic",1
+"Esens, Lower Saxony, Germany","Prague, Czech Republic",14
+"Esslingen, Baden-Württemberg, Germany","Güglingen, Baden-Württemberg, Germany",1
+"Florence, Tuscany, Italy","Prague, Czech Republic",2
+"Frankfurt (Oder), Brandenburg, Germany","Prague, Czech Republic",3
+"Frankfurt am Main, Hesse, Germany","Linz, Upper Austria, Austria",3
+"Frankfurt am Main, Hesse, Germany","Prague, Czech Republic",3
+"Frankfurt am Main, Hesse, Germany","Strasbourg, Grand Est, France",1
+"Freiburg, Baden-Württemberg, Germany","Prague, Czech Republic",2
+"Friedland, Lower Saxony, Germany","Zagań, Lubusz, Poland",1
+"Gdańsk, Pomeranian Voivodeship, Poland","Leipzig, Saxony, Germany",6
+"Gdańsk, Pomeranian Voivodeship, Poland","Linz, Upper Austria, Austria",6
+"Gdańsk, Pomeranian Voivodeship, Poland","Prague, Czech Republic",1
+"Geneva, Geneva, Switzerland","Regensburg, Bavaria, Germany",1
+"Geneva, Geneva, Switzerland","Tübingen, Baden-Württemberg, Germany",1
+"Giessen, Hesse, Germany","Linz, Upper Austria, Austria",1
+Girsitz,"Graz, Styria, Austria",1
+Girsitz,"Vienna, Wien, Austria",1
+"Graz, Styria, Austria","Bologna, Emilia-Romagna, Italy",1
+"Graz, Styria, Austria","Bruck an der Mur, Styria, Austria",1
+"Graz, Styria, Austria","Calw, Baden-Württemberg, Germany",1
+"Graz, Styria, Austria","Graz, Styria, Austria",10
+"Graz, Styria, Austria","Linz, Upper Austria, Austria",1
+"Graz, Styria, Austria","Munich, Bavaria, Germany",11
+"Graz, Styria, Austria","Padua, Veneto, Italy",2
+"Graz, Styria, Austria","Prague, Czech Republic",12
+"Graz, Styria, Austria","Styria, Austria",1
+"Graz, Styria, Austria","Tübingen, Baden-Württemberg, Germany",18
+"Graz, Styria, Austria","Wandsbek, Hamburg, Germany",1
+"Graz, Styria, Austria","Wittenberg, Saxony-Anhalt, Germany",1
+"Grodków, Opole Voivodeship, Poland","Prague, Czech Republic",1
+"Göppingen, Baden-Württemberg, Germany","Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)",1
+"Görlitz, Saxony, Germany","Jičín, Královéhradecký kraj, Czech Republic",1
+"Görlitz, Saxony, Germany","Prague, Czech Republic",5
+"Görlitz, Saxony, Germany","Strasbourg, Grand Est, France",2
+"Görlitz, Saxony, Germany","Tübingen, Baden-Württemberg, Germany",1
+"Güstrow, Mecklenburg-Vorpommern, Germany","Zagań, Lubusz, Poland",2
+"Haguenau, Grand Est, France","Munich, Bavaria, Germany",3
+"Halberstadt, Saxony-Anhalt, Germany","Prague, Czech Republic",3
+"Halberstadt, Saxony-Anhalt, Germany","Zagań, Lubusz, Poland",1
+"Heidelberg, Baden-Württemberg, Germany","Prague, Czech Republic",1
+"Helmstedt, Lower Saxony, Germany","Prague, Czech Republic",1
+"Hirsau, Baden-Württemberg, Germany","Graz, Styria, Austria",1
+"Hirschbach, Lower Austria, Austria","Linz, Upper Austria, Austria",1
+"Horn, (West Frisia) Limburg, Netherlands","Linz, Upper Austria, Austria",1
+"Horn, (West Frisia) Limburg, Netherlands","Prague, Czech Republic",1
+"Hrastnik, Hrastnik, Slovenia","Graz, Styria, Austria",15
+"Ingolstadt, Bavaria, Germany, (Holy Roman Empire)","Linz, Upper Austria, Austria",1
+"Ingolstadt, Bavaria, Germany, (Holy Roman Empire)","Strasbourg, Grand Est, France",1
+"Innsbruck, Tyrol, Austria, (Holy Roman Empire)","Linz, Upper Austria, Austria",3
+"Jena, Thuringia, Germany","Graz, Styria, Austria",1
+"Jičín, Královéhradecký kraj, Czech Republic","Halberstadt, Saxony-Anhalt, Germany",1
+"Jičín, Královéhradecký kraj, Czech Republic","Jičín, Královéhradecký kraj, Czech Republic",1
+"Jičín, Královéhradecký kraj, Czech Republic","Linz, Upper Austria, Austria",2
+"Kaliningrad [Königsberg], Kaliningrad Oblast, Russia [Prussia]","Linz, Upper Austria, Austria",3
+"Kaliningrad [Königsberg], Kaliningrad Oblast, Russia [Prussia]","Prague, Czech Republic",8
+"Kaufbeuren, Bavaria, Germany","Prague, Czech Republic",5
+"Leipzig, Saxony, Germany","Linz, Upper Austria, Austria",1
+"Leipzig, Saxony, Germany","Prague, Czech Republic",17
+"Leipzig, Saxony, Germany","Strasbourg, Grand Est, France",1
+"Leonberg, Baden-Württemberg, Germany","Weil der Stadt, Baden-Württemberg, Germany",1
+"Leuven, Flemish Brabant, Belgium","Prague, Czech Republic",1
+"Linz, Upper Austria, Austria","Antwerp, Flanders, Belgium",2
+"Linz, Upper Austria, Austria","Augsburg, Bavaria, Germany",1
+"Linz, Upper Austria, Austria","Bad Cannstatt, Baden-Württemberg, Germany",1
+"Linz, Upper Austria, Austria","Brussels, Brussels Capital Region, Belgium",1
+"Linz, Upper Austria, Austria","Dresden, Saxony, Germany",1
+"Linz, Upper Austria, Austria","Gdańsk, Pomeranian Voivodeship, Poland",8
+"Linz, Upper Austria, Austria","Graz, Styria, Austria",3
+"Linz, Upper Austria, Austria","Jičín, Královéhradecký kraj, Czech Republic",1
+"Linz, Upper Austria, Austria","Leipzig, Saxony, Germany",1
+"Linz, Upper Austria, Austria","Leonberg, Baden-Württemberg, Germany",1
+"Linz, Upper Austria, Austria","Linz, Upper Austria, Austria",4
+"Linz, Upper Austria, Austria","London, England, United Kingdom",1
+"Linz, Upper Austria, Austria","Nuremberg, Bavaria, Germany",1
+"Linz, Upper Austria, Austria","Nürtingen, Baden-Württemberg, Germany",2
+"Linz, Upper Austria, Austria","Osteel, Lower Saxony, Germany",1
+"Linz, Upper Austria, Austria","Passau, Lower Bavaria, Germany",1
+"Linz, Upper Austria, Austria","Prague, Czech Republic",6
+"Linz, Upper Austria, Austria","Regensburg, Bavaria, Germany",3
+"Linz, Upper Austria, Austria","Schloss Weidenholz, Weidenholz, Upper Austria, Austria",1
+"Linz, Upper Austria, Austria","Strasbourg, Grand Est, France",21
+"Linz, Upper Austria, Austria","Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)",4
+"Linz, Upper Austria, Austria","Tübingen, Baden-Württemberg, Germany",9
+"Linz, Upper Austria, Austria","Venice, Veneto, Italy",5
+"Linz, Upper Austria, Austria","Vienna, Wien, Austria",16
+"Lochovice, Central Bohemia , Czech Republic","Prague, Czech Republic",1
+"London, England, United Kingdom","Prague, Czech Republic",3
+"Loschberg, Waldhausen, Lower Austria, Austria","Linz, Upper Austria, Austria",1
+"Lubań, Lower Silesia, Poland","Leipzig, Saxony, Germany",3
+"Magdeburg, Saxony-Anhalt, Germany","Prague, Czech Republic",1
+"Mainz, Rhineland-Palatinate, Germany","Prague, Czech Republic",11
+"Marburg, Hesse, Germany","Graz, Styria, Austria",2
+"Milan, Lombardy, Italy","Linz, Upper Austria, Austria",2
+"Mnichovo Hradiště, Central Bohemia, Czech Republic","Prague, Czech Republic",1
+"Munich, Bavaria, Germany","Graz, Styria, Austria",15
+"Munich, Bavaria, Germany","Ingolstadt, Bavaria, Germany, (Holy Roman Empire)",2
+"Munich, Bavaria, Germany","Prague, Czech Republic",55
+"Mähringen, Baden-Württemberg, Germany","Prague, Czech Republic",1
+"Mähringen, Baden-Württemberg, Germany","Zagań, Lubusz, Poland",1
+"Möllbrücke, Carinthia, Austria","Prague, Czech Republic",1
+"Neuburg an der Donau, Bavaria, Germany","Prague, Czech Republic",2
+"Neumünster, Schleswig-Holstein, Germany","Prague, Czech Republic",1
+"Nový Jáchymov, Central Bohemia, Czech Republic","Prague, Czech Republic",1
+"Nuremberg, Bavaria, Germany","Linz, Upper Austria, Austria",3
+"Nürtingen, Baden-Württemberg, Germany","Linz, Upper Austria, Austria",4
+"Olomouc, Moravia, Czech Republic","Prague, Czech Republic",4
+"Osteel, Lower Saxony, Germany","Prague, Czech Republic",19
+"Oxford, Oxfordshire, England","Linz, Upper Austria, Austria",1
+"Padua, Veneto, Italy","Florence, Tuscany, Italy",1
+"Padua, Veneto, Italy","Graz, Styria, Austria",1
+"Padua, Veneto, Italy","Paris, Île-de-France, France",1
+"Padua, Veneto, Italy","Prague, Czech Republic",2
+"Panenské Břežany, Central Bohemia","Prague, Czech Republic",1
+"Paris, Île-de-France, France","Tübingen, Baden-Württemberg, Germany",1
+"Paris, Île-de-France, France","Zagań, Lubusz, Poland",1
+"Pfaffenhofen an der Ilm, Bavaria, Germany","Linz, Upper Austria, Austria",1
+"Plzeň, Plzeňský, Czech Republic","Benátky nad Jizerou, Central Bohemia, Czech Republic",1
+"Prague, Czech Republic","Altdorf, Bavaria, Germany",1
+"Prague, Czech Republic","Amsterdam, North Holland, (United Provinces) Netherlands",1
+"Prague, Czech Republic","Ansbach, Bavaria, Germany",1
+"Prague, Czech Republic","Antwerp, Flanders, Belgium",1
+"Prague, Czech Republic","Benátky nad Jizerou, Central Bohemia, Czech Republic",3
+"Prague, Czech Republic","Bologna, Emilia-Romagna, Italy",6
+"Prague, Czech Republic","Crossen an der Elster, Thuringia, Germany",1
+"Prague, Czech Republic","Dresden, Saxony, Germany",2
+"Prague, Czech Republic","Esens, Lower Saxony, Germany",3
+"Prague, Czech Republic","Florence, Tuscany, Italy",7
+"Prague, Czech Republic",France,1
+"Prague, Czech Republic","Freiburg, Baden-Württemberg, Germany",1
+"Prague, Czech Republic","Graz, Styria, Austria",8
+"Prague, Czech Republic","Görlitz, Saxony, Germany",2
+"Prague, Czech Republic","Halberstadt, Saxony-Anhalt, Germany",2
+"Prague, Czech Republic","Innsbruck, Tyrol, Austria, (Holy Roman Empire)",1
+"Prague, Czech Republic","Kaufbeuren, Bavaria, Germany",4
+"Prague, Czech Republic","Leiden, South Holland, Netherlands",3
+"Prague, Czech Republic","Leipzig, Saxony, Germany",9
+"Prague, Czech Republic","Linz, Upper Austria, Austria",12
+"Prague, Czech Republic","London, England, United Kingdom",4
+"Prague, Czech Republic","Mainz, Rhineland-Palatinate, Germany",3
+"Prague, Czech Republic","Munich, Bavaria, Germany",18
+"Prague, Czech Republic","Neuburg an der Donau, Bavaria, Germany",1
+"Prague, Czech Republic","Olomouc, Moravia, Czech Republic",3
+"Prague, Czech Republic","Osteel, Lower Saxony, Germany",4
+"Prague, Czech Republic","Padua, Veneto, Italy",7
+"Prague, Czech Republic","Prague, Czech Republic",15
+"Prague, Czech Republic","Přelouč, Pardubický, Czech Republic",1
+"Prague, Czech Republic","Resterhafe, Lower Saxony, Germany",1
+"Prague, Czech Republic","Rome, Latium, Italy",2
+"Prague, Czech Republic","Strasbourg, Grand Est, France",2
+"Prague, Czech Republic","Styria, Austria",1
+"Prague, Czech Republic","Tübingen, Baden-Württemberg, Germany",15
+"Prague, Czech Republic","Ulm, Baden-Württemberg, Germany",1
+"Prague, Czech Republic","Vienna, Wien, Austria",3
+"Prague, Czech Republic","Wittenberg, Saxony-Anhalt, Germany",1
+"Prague, Czech Republic","Wolfenbüttel, Lower Saxony, Germany",2
+"Regensburg, Bavaria, Germany","Frankfurt (Oder), Brandenburg, Germany",1
+"Regensburg, Bavaria, Germany","Prague, Czech Republic",5
+"Regensburg, Bavaria, Germany","Strasbourg, Grand Est, France",2
+"Regensburg, Bavaria, Germany","Tübingen, Baden-Württemberg, Germany",1
+"Resterhafe, Lower Saxony, Germany","Prague, Czech Republic",5
+"Rome, Latium, Italy","Linz, Upper Austria, Austria",1
+"Rome, Latium, Italy","Prague, Czech Republic",2
+"Rostock, Mecklenburg-Vorpommern, Germany","Prague, Czech Republic",1
+"Rottenmann, Styria, Austria","Graz, Styria, Austria",1
+"Rouffach, Grand Est, France","Zagań, Lubusz, Poland",1
+"Saverne, Grand Est, France","Linz, Upper Austria, Austria",1
+"Schloss Rabenstein, Styria, Austria","Prague, Czech Republic",3
+"Schloss Weidenholz, Weidenholz, Upper Austria, Austria","Linz, Upper Austria, Austria",1
+"Schwertberg, Upper Austria, Austria","Graz, Styria, Austria",1
+"Soběslav, Jihočeský, Czech Republic","Linz, Upper Austria, Austria",4
+"Steyr, Upper Austria, Austria","Linz, Upper Austria, Austria",1
+"Strasbourg, Grand Est, France","Frankfurt am Main, Hesse, Germany",1
+"Strasbourg, Grand Est, France","Graz, Styria, Austria",1
+"Strasbourg, Grand Est, France","Linz, Upper Austria, Austria",14
+"Strasbourg, Grand Est, France","Lubań, Lower Silesia, Poland",1
+"Strasbourg, Grand Est, France","Prague, Czech Republic",3
+"Strasbourg, Grand Est, France","Strasbourg, Grand Est, France",1
+"Strasbourg, Grand Est, France","Tübingen, Baden-Württemberg, Germany",3
+"Strasbourg, Grand Est, France","Ulm, Baden-Württemberg, Germany",4
+"Strasbourg, Grand Est, France","Zagań, Lubusz, Poland",7
+"Strechau, Styria, Austria","Graz, Styria, Austria",1
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)","Graz, Styria, Austria",1
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)","Linz, Upper Austria, Austria",13
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)","Prague, Czech Republic",2
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)","Regensburg, Bavaria, Germany",1
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)","Rosswälden, Baden-Württemberg, Germany",2
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)","Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)",7
+"Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)","Tübingen, Baden-Württemberg, Germany",9
+"Szprotawa, Lubusz Voivodeship, (Silesia) Poland","Linz, Upper Austria, Austria",1
+"Turin, Piedmont, Italy","Bologna, Emilia-Romagna, Italy",1
+"Tübingen, Baden-Württemberg, Germany","Altdorf, Bavaria, Germany",1
+"Tübingen, Baden-Württemberg, Germany","Geneva, Geneva, Switzerland",1
+"Tübingen, Baden-Württemberg, Germany","Graz, Styria, Austria",18
+"Tübingen, Baden-Württemberg, Germany","Güglingen, Baden-Württemberg, Germany",1
+"Tübingen, Baden-Württemberg, Germany","Linz, Upper Austria, Austria",41
+"Tübingen, Baden-Württemberg, Germany","Munich, Bavaria, Germany",1
+"Tübingen, Baden-Württemberg, Germany","Prague, Czech Republic",14
+"Tübingen, Baden-Württemberg, Germany","Strasbourg, Grand Est, France",8
+"Tübingen, Baden-Württemberg, Germany","Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)",8
+"Tübingen, Baden-Württemberg, Germany","Tübingen, Baden-Württemberg, Germany",6
+"Tübingen, Baden-Württemberg, Germany","Weil der Stadt, Baden-Württemberg, Germany",1
+"Třeboň, Jihočeský, Czech Republic","Linz, Upper Austria, Austria",1
+"Uherské Hradiště, Zlín, Czech Republic","Prague, Czech Republic",1
+"Ulm, Baden-Württemberg, Germany","Esslingen, Baden-Württemberg, Germany",1
+"Ulm, Baden-Württemberg, Germany","Güglingen, Baden-Württemberg, Germany",1
+"Ulm, Baden-Württemberg, Germany","Linz, Upper Austria, Austria",22
+"Ulm, Baden-Württemberg, Germany","Prague, Czech Republic",2
+"Ulm, Baden-Württemberg, Germany","Regensburg, Bavaria, Germany",2
+"Ulm, Baden-Württemberg, Germany","Strasbourg, Grand Est, France",4
+"Ulm, Baden-Württemberg, Germany","Stuttgart, Baden-Württemberg, (Swabian Imperial Circle) Germany, (Holy Roman Empire)",1
+"Ulm, Baden-Württemberg, Germany","Tübingen, Baden-Württemberg, Germany",10
+"Ulm, Baden-Württemberg, Germany","Ulm, Baden-Württemberg, Germany",3
+"Venice, Veneto, Italy","Linz, Upper Austria, Austria",7
+"Venice, Veneto, Italy","Prague, Czech Republic",3
+"Vicenza, Veneto, Italy","Regensburg, Bavaria, Germany",1
+"Vienna, Wien, Austria","Florence, Tuscany, Italy",1
+"Vienna, Wien, Austria","Linz, Upper Austria, Austria",29
+"Vienna, Wien, Austria","Prague, Czech Republic",3
+"Vienna, Wien, Austria","Vienna, Wien, Austria",3
+"Wamberg, Bavaria, Germany","Linz, Upper Austria, Austria",1
+"Wandsbek, Hamburg, Germany","Graz, Styria, Austria",1
+"Wandsbek, Hamburg, Germany","Tübingen, Baden-Württemberg, Germany",1
+"Weil der Stadt, Baden-Württemberg, Germany","Tübingen, Baden-Württemberg, Germany",2
+"Wels, Upper Austria, Austria","Castle Leombach, Leombach, Upper Austria, Austria",1
+"Wels, Upper Austria, Austria","Linz, Upper Austria, Austria",2
+"Wels, Upper Austria, Austria","Strasbourg, Grand Est, France",1
+"Wesenufer, Upper Austria, Austria","Linz, Upper Austria, Austria",1
+"Widdern, Baden-Württemberg, Germany","Tübingen, Baden-Württemberg, Germany",1
+"Wiesensteig, Baden-Württemberg, Germany","Ulm, Baden-Württemberg, Germany",1
+"Wittenberg, Saxony-Anhalt, Germany","Linz, Upper Austria, Austria",2
+"Wittenberg, Saxony-Anhalt, Germany","Prague, Czech Republic",19
+"Wolfenbüttel, Lower Saxony, Germany","Prague, Czech Republic",8
+"Zagań, Lubusz, Poland","Güstrow, Mecklenburg-Vorpommern, Germany",1
+"Zagań, Lubusz, Poland","Jičín, Královéhradecký kraj, Czech Republic",2
+"Zagań, Lubusz, Poland","Leipzig, Saxony, Germany",8
+"Zagań, Lubusz, Poland","Prague, Czech Republic",1
+"Zagań, Lubusz, Poland","Rouffach, Grand Est, France",1
+"Zagań, Lubusz, Poland","Strasbourg, Grand Est, France",5
