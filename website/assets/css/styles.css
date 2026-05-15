@@ -24,9 +24,12 @@ body {
   min-height: 100vh;
 }
 
+header {
+    position: sticky;
+}
+
 .site-header {
   padding: 1rem 1.25rem 3rem;
-  position: sticky;
 }
 
 .nav-wrap {
