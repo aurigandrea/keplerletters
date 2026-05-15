@@ -24,9 +24,7 @@ body {
   min-height: 100vh;
 }
 
-nav {
-    position: sticky;
-}
+
 
 .site-header {
   padding: 1rem 1.25rem 3rem;
@@ -39,6 +37,10 @@ nav {
   gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-deep);
 }
 
 .brand {
