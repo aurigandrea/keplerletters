@@ -158,12 +158,6 @@ function selectNode(nodes) {
   return nodes;
 }
 
-function selectNodes(nodes) {
-  network.selectNodes(nodes);
-  filterHighlight({nodes: nodes});
-  return nodes;
-}
-
 function highlightFilter(filter) {
   let selectedNodes = []
   let selectedProp = filter['property']
