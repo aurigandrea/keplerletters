@@ -41,6 +41,7 @@ REQUIREMENTS
 import argparse
 import csv
 import math
+from collections import Counter
 from pathlib import Path
 
 try:
@@ -81,6 +82,23 @@ def edge_width(weight: int, max_weight: int) -> float:
         return 0.5
     proportion = math.sqrt(weight / max_weight)
     return round(0.5 + proportion * 7.5, 1)
+
+
+  def short_label(name: str) -> str:
+    """Return a short display label (usually surname or institution head)."""
+    return (name or "").split(",", 1)[0].strip()
+
+
+  def disambiguation_token(name: str) -> str:
+    """Return a short token to disambiguate people sharing the same short label."""
+    parts = [part.strip() for part in (name or "").split(",")]
+    if len(parts) < 2 or not parts[1]:
+      return ""
+
+    token = parts[1]
+    if ";" in token:
+      return "multiple"
+    return token.split()[0]
 
 
 # --- MAIN --------------------------------------------------------------------
@@ -129,6 +147,10 @@ def main():
                     if name in connected_people}
     print(f"Nodes after filtering: {len(active_nodes)}")
 
+    # Some distinct people share the same surname (e.g. multiple Brahe/Kepler entries).
+    # Count short labels so we can disambiguate duplicates in the rendered graph.
+    short_label_counts = Counter(short_label(name) for name in active_nodes)
+
     max_degree = max((d["total"] for d in active_nodes.values()), default=1)
     max_weight = max((e["weight"] for e in edges), default=1)
 
@@ -150,8 +172,10 @@ def main():
         size   = node_size(data["total"], max_degree)
         colour = COLOUR_KEPLER if is_kepler else COLOUR_OTHER
 
-        # Short display label: just the surname.
-        label = name.split(",")[0]
+        label = short_label(name)
+        if short_label_counts[label] > 1:
+          token = disambiguation_token(name)
+          label = f"{label} ({token})" if token else name
 
         tooltip = (
             f"{name}\n"
