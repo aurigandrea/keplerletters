@@ -38,12 +38,16 @@ import argparse
 import csv
 import math
 from collections import Counter, defaultdict
+from html import escape
 from pathlib import Path
 
 try:
     import folium
 except ImportError:
     raise SystemExit("Folium is not installed. Run: pip install folium")
+
+
+KEPLER_NAME = "Kepler, Johannes, 1571-1630"
 
 
 # --- FILE IO -----------------------------------------------------------------
@@ -213,11 +217,49 @@ def aggregate_person_edges(
     return dict(person_totals), dict(person_edges), skipped
 
 
+def aggregate_city_people(
+    letters: list[dict[str, str]],
+    places: dict[str, tuple[float, float]],
+) -> tuple[dict[str, dict[str, int]], dict[str, dict[str, int]]]:
+    """
+    Build city-level people summaries for map popups.
+
+    Returns:
+    - city_people: city -> {person -> count of city-associated letters}
+    - city_kepler_counterparts: city -> {counterpart -> count with Kepler at that city}
+    """
+    city_people: dict[str, Counter[str]] = defaultdict(Counter)
+    city_kepler_counterparts: dict[str, Counter[str]] = defaultdict(Counter)
+
+    for row in letters:
+        author = norm(row.get("Author", ""))
+        addressee = norm(row.get("Addressee", ""))
+        origin = norm(row.get("Origin", ""))
+        destination = norm(row.get("Destination", ""))
+
+        if origin in places and author:
+            city_people[origin][author] += 1
+            if addressee == KEPLER_NAME and author:
+                city_kepler_counterparts[origin][author] += 1
+
+        if destination in places and addressee:
+            city_people[destination][addressee] += 1
+            if author == KEPLER_NAME and addressee:
+                city_kepler_counterparts[destination][addressee] += 1
+
+    return (
+        {city: dict(counter) for city, counter in city_people.items()},
+        {city: dict(counter) for city, counter in city_kepler_counterparts.items()},
+    )
+
+
 # --- MAP DRAWING -------------------------------------------------------------
 
 def build_multiview_map(
     city_totals: dict[str, int],
     city_routes: dict[tuple[str, str], int],
+    city_people: dict[str, dict[str, int]],
+    city_kepler_counterparts: dict[str, dict[str, int]],
     person_home: dict[str, str],
     person_totals: dict[str, int],
     person_edges: dict[tuple[str, str], int],
@@ -245,6 +287,35 @@ def build_multiview_map(
     max_city_total = max(city_totals.values(), default=1)
     for city, count in sorted(city_totals.items(), key=lambda x: -x[1]):
         lat, lon = places[city]
+        top_people = sorted(
+            city_people.get(city, {}).items(),
+            key=lambda x: (-x[1], x[0]),
+        )[:5]
+        top_people_html = "".join(
+            f"<li>{escape(person)}: {letters}</li>" for person, letters in top_people
+        )
+
+        kepler_counterparts = sorted(
+            city_kepler_counterparts.get(city, {}).items(),
+            key=lambda x: (-x[1], x[0]),
+        )[:5]
+        kepler_html = "".join(
+            f"<li>{escape(person)}: {letters}</li>" for person, letters in kepler_counterparts
+        )
+
+        popup_parts = [
+            f"<b>{escape(city)}</b>",
+            f"<br>{count} letters sent/received",
+        ]
+        if top_people_html:
+            popup_parts.append("<br><b>Top people associated with this city:</b><ul style='margin:4px 0 0 0; padding-left:18px'>")
+            popup_parts.append(top_people_html)
+            popup_parts.append("</ul>")
+        if kepler_html:
+            popup_parts.append("<b>Kepler correspondents at this city:</b><ul style='margin:4px 0 0 0; padding-left:18px'>")
+            popup_parts.append(kepler_html)
+            popup_parts.append("</ul>")
+
         folium.CircleMarker(
             location=(lat, lon),
             radius=node_radius(count, max_city_total, 4, 30),
@@ -253,7 +324,7 @@ def build_multiview_map(
             fill_color="#2980b9",
             fill_opacity=0.65,
             tooltip=f"City: {city} ({count})",
-            popup=folium.Popup(f"<b>{city}</b><br>{count} letters sent/received", max_width=280),
+            popup=folium.Popup("".join(popup_parts), max_width=380),
         ).add_to(layer_city_nodes)
 
     # Draw person edges (under person nodes)
@@ -315,6 +386,7 @@ def main() -> None:
     places = read_places(Path(args.places))
 
     city_totals, city_routes, skipped_city = aggregate_city_view(letters, places)
+    city_people, city_kepler_counterparts = aggregate_city_people(letters, places)
     person_home, assignment_mode = assign_person_home_city(letters, places)
     person_totals, person_edges, skipped_person = aggregate_person_edges(letters, person_home)
 
@@ -323,6 +395,8 @@ def main() -> None:
     m = build_multiview_map(
         city_totals=city_totals,
         city_routes=city_routes,
+        city_people=city_people,
+        city_kepler_counterparts=city_kepler_counterparts,
         person_home=person_home,
         person_totals=person_totals,
         person_edges=person_edges,
