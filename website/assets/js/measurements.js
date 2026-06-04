@@ -57,6 +57,11 @@ const METRIC_MAP = {
 let currentMetric = "pagerank";         // Which metric is currently shown in the centrality chart
 let keplerRemoved = false;              // Is Kepler removed from the centrality chart?
 let outliersKeplerRemoved = false;      // Is Kepler removed from the outliers chart?
+let resizeTimer = null;                 // Debounce chart rerender on viewport resize.
+
+function isMobileViewport() {
+  return window.matchMedia("(max-width: 768px)").matches;
+}
 
 // shortName: Utility to shorten person names for y-axis labels (removes dates, "fl.", etc.)
 function shortName(name) {
@@ -190,6 +195,23 @@ function renderDiff() {
     hovertemplate: "<b>%{y}</b><br>PageRank change: %{x:+.5f}<extra></extra>",
   };
 
+  if (isMobileViewport()) {
+    const mobileLayout = {
+      ...LAYOUT_BASE,
+      margin: { t: 20, r: 20, b: 50, l: 165 },
+      yaxis: { ...LAYOUT_BASE.yaxis, autorange: "reversed", tickfont: { size: 10 } },
+      xaxis: {
+        ...LAYOUT_BASE.xaxis,
+        title: "PageRank Delta (no Kepler)",
+        zerolinecolor: "#f87171",
+      },
+      showlegend: false,
+    };
+
+    Plotly.react("chart-diff", [tracePageRankChange], mobileLayout, CONFIG);
+    return;
+  }
+
   const layout = {
     ...LAYOUT_BASE,
     barmode: "group",
@@ -227,7 +249,7 @@ function renderDiff() {
     ],
   };
 
-  Plotly.newPlot("chart-diff", [traceFull, traceNoKepler, tracePageRankChange], layout, CONFIG);
+  Plotly.react("chart-diff", [traceFull, traceNoKepler, tracePageRankChange], layout, CONFIG);
 }
 
 // renderOutliers: Draws the place-year outliers scatterplot (brokerage intensity vs. year)
@@ -323,6 +345,16 @@ function initMeasurementsPage() {
   renderCentrality(currentMetric);
   renderDiff();
   renderOutliers();
+
+  // Re-render comparison chart when crossing responsive breakpoints.
+  window.addEventListener("resize", () => {
+    if (resizeTimer) {
+      clearTimeout(resizeTimer);
+    }
+    resizeTimer = setTimeout(() => {
+      renderDiff();
+    }, 120);
+  });
 }
 
 // Initialize charts when the page is fully loaded
